@@ -33,9 +33,8 @@ sudo: false
 
 #before_script:
 
-#build
-script:
-  mvn clean verify
+# Run Integration tests
+script: "mvn test && mvn verify"
 
 # run test reports
 #after_success:
