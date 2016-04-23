@@ -33,11 +33,13 @@ sudo: false
 
 #before_script:
 
-#script:
+#build
+script:
+  mvn clean verify
 
 # run test reports
-after_success:
-    - mvn clean test 
+#after_success:
+#    - mvn clean test
 
 #after_failure:
 
