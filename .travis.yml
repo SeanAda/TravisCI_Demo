@@ -37,7 +37,7 @@ sudo: false
 
 # run test reports
 after_success:
-    - mvn clean test jacoco:report
+    - mvn clean test 
 
 #after_failure:
 
