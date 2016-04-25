@@ -22,23 +22,14 @@ branches:
 # container-based build:
 sudo: false
 
-
-#--------------------------------------------------------------------
-# use default settings:
-#   maven (mvn install -DskipTests=true, mvn test -B)
-#--------------------------------------------------------------------
-
 #before_install:
-#   -
 
 #before_script:
 
 # Run Integration tests
 script: "mvn test && mvn verify"
 
-# run test reports
 #after_success:
-#    - mvn clean test
 
 #after_failure:
 
